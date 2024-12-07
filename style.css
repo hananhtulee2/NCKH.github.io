@@ -671,22 +671,22 @@ img.TV_off {
         width: 83vw;
     }
 
-    main table thead tr th:first-child{
-        display: none;
-    }
+   main table thead tr th:first-child,
+main table tbody tr td:first-child {
+    display: none; /* Ẩn cột đầu tiên */
+}
 
-    main table tbody tr td:first-child{
-        display: none;
-    }
-    main table thead tr th:last-child,
-    main table tbody tr td:last-child, {
-    display: table-cell; /* Hiển thị lại các cột */
-    }
-    main .recent-orders table th,
-    main .recent-orders table td {
+main table thead tr th:last-child,
+main table tbody tr td:last-child {
+    display: table-cell; /* Hiển thị lại cột cuối cùng */
+}
+
+main .recent-orders table th,
+main .recent-orders table td {
     white-space: nowrap;
     text-align: center; /* Canh giữa cho gọn gàng */
-    }
+}
+
 
 }
 
