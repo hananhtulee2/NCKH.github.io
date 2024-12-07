@@ -672,11 +672,15 @@ img.TV_off {
     }
 
     main table thead tr th:first-child{
-        display: table-cell;
+        display: none;
     }
 
     main table tbody tr td:first-child{
-        display: table-cell;
+        display: none;
+    }
+    main table thead tr th:last-child,
+    main table tbody tr td:last-child, {
+    display: table-cell; /* Hiển thị lại các cột */
     }
     main .recent-orders table th,
     main .recent-orders table td {
