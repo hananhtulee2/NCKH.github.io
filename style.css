@@ -664,6 +664,7 @@ img.TV_off {
         left: 50%;
         transform: translateX(-50%);
         margin: 2rem 0 0 0.8rem;
+        overflow-x: auto; 
     }
 
     main .recent-orders table{
@@ -672,12 +673,17 @@ img.TV_off {
 
     main table thead tr th:last-child,
     main table thead tr th:first-child{
-        display: none;
+        display: table-cell;
     }
 
     main table tbody tr td:last-child,
     main table tbody tr td:first-child{
-        display: none;
+        display: table-cell;
+    }
+    main .recent-orders table th,
+    main .recent-orders table td {
+    white-space: nowrap;
+    text-align: center; /* Canh giữa cho gọn gàng */
     }
 
 }
