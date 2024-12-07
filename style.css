@@ -671,12 +671,10 @@ img.TV_off {
         width: 83vw;
     }
 
-    main table thead tr th:last-child,
     main table thead tr th:first-child{
         display: table-cell;
     }
 
-    main table tbody tr td:last-child,
     main table tbody tr td:first-child{
         display: table-cell;
     }
